@@ -1,10 +1,12 @@
 import React from 'react'
+import Photo from '../src/IMG_9753.jpg'
 
 export default function About() {
   return (
     <>
       {' '}
       <h1> About Us </h1>
+      <img src={Photo} style={{ width: '80%' }} />
       <p>
         {' '}
         My name is Eduarda and I am currently a senior at NYU studying CS. I was
